@@ -53,7 +53,13 @@ body {
 a.js-nav1, a.js-nav2, a.js-nav3 {
     border-left: 1px solid #eaeaea;
     padding: 2px 10px;
+}
+a:link {
     color: #586069;
+    text-decoration: none;
+}
+a:hover {
+    color: darkgrey;
 }
 
 
