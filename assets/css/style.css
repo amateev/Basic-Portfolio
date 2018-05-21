@@ -75,10 +75,19 @@ div.column {
     border: 2px solid darkgrey;
 }
 img.myimage {
-    width: 200px;
-    height: 150px;
+    width: 180px;
+    height: 130px;
     float: left;
     margin-right: 15px;
+    
+}
+/*Hover over the image*/
+img.myimage:hover {
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
     
 }
 .column-inner {
