@@ -35,6 +35,9 @@ body {
     height: 64px;
     color: white;
 }
+.logo h1 {
+    padding: 0 10px;
+}
 .topnav {
     float: right;
 }
@@ -75,7 +78,7 @@ div.column {
     border: 2px solid darkgrey;
 }
 img.myimage {
-    width: 180px;
+    width: 170px;
     height: 130px;
     float: left;
     margin-right: 15px;
