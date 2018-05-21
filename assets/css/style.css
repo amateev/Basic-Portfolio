@@ -1,8 +1,19 @@
-body {
-    /* images do not work */
+body { 
     background-image: url(../images/mooning/mooning.png);
-    background-image: url(../images/mooning_@2X.png);
     margin: 0;
+    height: 100%;
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #586069;
+    font-weight: 350;
+    line-height: 1.5;
+}
+/*tricks for sticky footer*/
+.wrapper {
+    min-height: 100%;
+     /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -60px;
 }
 /*position of the header on the whole page*/
 .header {
@@ -10,10 +21,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: whitesmoke;
-    border-bottom: solid 1px #eaeaea;
+    border-bottom: solid 3px darkgrey;
     top: 0;
     left: 0;
-    
     height: 64px;
 }
 /*setting up an inner width with margins of the header with logo and list so it stays with the row div*/
@@ -21,11 +31,15 @@ body {
     width: 950px;
     margin: 0 auto;
 }
+.column h1 {
+    color: #089994;
+}
 .logo {
     float: left;
     margin-left: -12px;
-    background-color: beige;
+    background-color: #089994;
     height: 64px;
+    color: white;
 }
 .topnav {
     float: right;
@@ -37,10 +51,15 @@ body {
 .li-1, .li-2, .li-3 {
     float: left;
     padding: 20px;
-    border-left: 1px solid #eaeaea;
+    /*border-left: 1px solid #eaeaea;*/
 }
 .li-3 {
     margin-right: -28px;
+}
+a.js-nav1, a.js-nav2, a.js-nav3 {
+    border-left: 1px solid #eaeaea;
+    padding: 2px 10px;
+    color: #586069;
 }
 
 
@@ -63,4 +82,15 @@ img.myimage {
 }
 .column-inner {
     border-top:  3px solid grey;
+}
+.footer-para {
+    border-top: 3px solid #089994;
+    text-align: center;
+    margin-top: 200px;
+    background-color: grey;
+    
+    padding: 7px;
+}
+.push, .footer-para {
+    height: 60px;
 }
